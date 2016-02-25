@@ -1,0 +1,38 @@
+/**
+ * Copyright (c) MIT 2016 awk888
+ **/
+
+code.code {
+    background-color: rgb(242, 242, 242);
+    color: rgb(120, 120, 120);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 90%;
+    border: 1px solid rgb(214, 210, 214);
+}
+pre.code {
+    background-color: rgb(242, 242, 242);
+    color: rgb(120, 120, 120);
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 90%;
+    border: 1px solid rgb(214, 210, 214);
+}
+.function, .html-tag {
+    color: rgb(38, 163, 65);
+}
+.string {
+    color: rgb(68, 205, 212);
+}
+.operator, .html-attr {
+    color: rgb(153, 153, 153);
+}
+.key-word {
+    color: rgb(214, 201, 83);
+}
+.comment {
+    color: rgb();
+}
+.parameter, .number {
+    color: rgb(224, 162, 224);
+}
