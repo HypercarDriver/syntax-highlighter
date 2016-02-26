@@ -3,7 +3,7 @@
  **/
 
 // The patterns for the JavaScript code.
-var find_function = /var|function|return|new/g;
+var find_function = /var|function|return|new|for/g;
 var find_string = /\"([^\"]+)\"/g;
 var find_parameter = /\(([^\(]+)\(/g;
 var find_keyword = /this|RegExp/g;
