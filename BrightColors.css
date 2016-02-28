@@ -1,0 +1,31 @@
+/**
+ * Copyright (c) MIT 2016 awk888
+ **/
+
+pre.code {
+    background-color: rgb(69, 69, 69);
+    color: lightgrey;
+    padding: 5px;
+    border-radius: 15px;
+}
+code.code {
+    background-color: rgb(69, 69, 69);
+    color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.function {
+    color: lightseagreen;
+}
+.string {
+    color: lightcoral;
+}
+.operator {
+    color: lightgreen;
+}
+.key-word {
+    color: lightpink;
+}
+.comment {
+    color: lightskyblue;
+}
