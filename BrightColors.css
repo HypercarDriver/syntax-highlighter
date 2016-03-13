@@ -4,12 +4,14 @@
 
 pre.code {
     background-color: rgb(69, 69, 69);
+    font-family: sans-serif;
     color: lightgrey;
     padding: 5px;
     border-radius: 15px;
 }
 code.code {
     background-color: rgb(69, 69, 69);
+    font-family: sans-serif;
     color: lightgrey;
     padding: 5px;
     border-radius: 5px;
