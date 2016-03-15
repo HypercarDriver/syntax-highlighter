@@ -8,6 +8,7 @@ var find_string = /\"([^\"]+)\"/g;
 var find_parameter = /\(([^\(]+)\(/g;
 var find_keyword = /this|RegExp/g;
 var find_operator = /^\s*(?:\+|\-|\*)/g;
+var find_comment = /^\s*\/\//g;
 
 
 // The main highlighting function.
@@ -21,6 +22,7 @@ var highlight = function(string, codeType){
             string = string.replace(find_string, "<span class='string'>$&</span>"); // Finds all the strings.
             string = string.replace(find_keyword, "<span class='key-word'>$&</span>"); // Finds all the key words.
             string = string.replace(find_operator, "<span class='operator'>$&</span>"); // Finds all the operators.
+            string = string.replace(find_comment, "<span class='comment'>$&</span>"); // Finds all the comments.
         break;
      }
             
