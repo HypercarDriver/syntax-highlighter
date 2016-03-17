@@ -12,7 +12,7 @@ var find_comment = /^\s*\/\//g;
 
 
 // The main highlighting function.
-var highlight = function(string, codeType){
+var highlight = function(string, codeType) {
     this.ct = codeType;
     
     switch(this.ct){
