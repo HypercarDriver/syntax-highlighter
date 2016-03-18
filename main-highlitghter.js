@@ -44,10 +44,10 @@ var highlight = function(string, codeType) {
 
 // Only works with jQuery.
 var createCode = function(string, type, place, codeType) {
-    this.str = string;
+    this.str = string || 'Put code here.';
     this.type = type;
-    this.place = place;
-    this.CT = codeType;
+    this.place = place || 'body';
+    this.CT = codeType || 'default';
     
     $('<' + this.type + '>').html(highlight(this.str, this.CT)).addClass('code').appendTo(this.place);
 };
