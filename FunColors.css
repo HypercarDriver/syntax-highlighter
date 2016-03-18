@@ -24,7 +24,7 @@ pre.code {
 .string {
     color: rgb(68, 205, 212);
 }
-.operator, .html-alt {
+.operator, .html-atr {
     color: rgb(153, 153, 153);
 }
 .key-word {
