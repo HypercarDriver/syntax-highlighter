@@ -18,13 +18,13 @@ pre.code {
     font-size: 90%;
     border: 1px solid rgb(214, 210, 214);
 }
-.function {
+.function, .html-tag {
     color: rgb(38, 163, 65);
 }
 .string {
     color: rgb(68, 205, 212);
 }
-.operator {
+.operator, .html-alt {
     color: rgb(153, 153, 153);
 }
 .key-word {
