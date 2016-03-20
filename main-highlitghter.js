@@ -11,10 +11,8 @@ var find_operator = /^\s*(?:\+|\-|\*)/g;
 var find_comment = /^\s*\/\//g;
 
 // The patterns for the HTML code.
-/*
-var find_html = //g;
-var find_atr = /style|class|id/g;
-*/
+var find_html = /<\s+[^>]+>/g;
+var find_attr = /style|class|id/g;
 
 // The main highlighting function.
 var highlight = function(string, codeType) {
@@ -31,12 +29,10 @@ var highlight = function(string, codeType) {
         break;
         
         // This only runs if the codeType is "HTML".
-        /*
         case "HTML":
             string = string.replace(find_html, "<span class='html-tag'>$&</span>"); // Finds all the tags.
-            string = string.replace(find_atr, "<span class'html-atr'>$&</span>"); // Finds all the atrs.
+            string = string.replace(find_attr, "<span class'html-attr'>$&</span>"); // Finds all the atrs.
         break;
-        */
      }
             
     return string;
