@@ -45,7 +45,7 @@ var highlight = function(string, codeType) {
 // Only works with jQuery.
 var createCode = function(string, type, place, codeType) {
     this.str = string || 'Put code here.';
-    this.type = type;
+    this.type = type || 'code';
     this.place = place || 'body';
     this.CT = codeType || 'default';
     
