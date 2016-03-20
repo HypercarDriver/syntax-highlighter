@@ -20,7 +20,7 @@ code.code {
 .string {
     color: lightcoral;
 }
-.operator, .html-alt {
+.operator, .html-atr {
     color: lightgreen;
 }
 .key-word {
