@@ -14,13 +14,13 @@ code.code {
     padding: 5px;
     border-radius: 5px;
 }
-.function {
+.function, .html-tag {
     color: lightseagreen;
 }
 .string {
     color: lightcoral;
 }
-.operator {
+.operator, .html-alt {
     color: lightgreen;
 }
 .key-word {
