@@ -17,6 +17,8 @@ pre.code {
     border-radius: 15px;
     font-size: 90%;
     border: 1px solid rgb(214, 210, 214);
+    max-width: 700px;
+    min-width: 100px;
 }
 .function, .html-tag {
     color: rgb(38, 163, 65);
