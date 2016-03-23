@@ -56,7 +56,7 @@ var createCode = function(string, type, place, codeType) {
     this.str = string || 'Put code here.';
     this.type = type || 'code';
     this.place = place || 'body';
-    this.CT = codeType || 'default';
+    this.CT = codeType || 'JavaScript';
     
     $('<' + this.type + '>').html(highlight(this.str, this.CT)).addClass('code').appendTo(this.place);
 };
