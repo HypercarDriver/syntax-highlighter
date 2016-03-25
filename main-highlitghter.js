@@ -9,6 +9,7 @@ var find_parameter = /\(([^\(]+)\(/g;
 var find_keyword = /this|RegExp/g;
 var find_operator = /^\s*(?:\+|\-|\*)/g;
 var find_comment = /^\/\//g;
+var find_number = /^\s*(?:-?\d+(?:\.\d+)?)\b/g;
 
 // The patterns for the HTML code.
 var find_html = /<\s+[^>]+>/g;
@@ -32,6 +33,7 @@ var highlight = function(string, codeType) {
             string = string.replace(find_keyword, "<span class='key-word'>$&</span>"); // Finds all the key words.
             string = string.replace(find_operator, "<span class='operator'>$&</span>"); // Finds all the operators.
             string = string.replace(find_comment, "<span class='comment'>$&</span>"); // Finds all the comments.
+            string = string.replace(find_number, "<span class='number'>$&</span"); // Finds all the numbers.
         break;
         
         // This only runs if the codeType is "HTML".
