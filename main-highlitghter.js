@@ -20,6 +20,7 @@ var find_PY_functions = /from|inport|print|def|pass/g;
 var find_PY_comment = /\#+[^#]/g;
 var find_PY_string = find_string;
 var find_PY_operator = /\+|\%/g;
+var find_PY_number = find_number;
 
 // The main highlighting function.
 var highlight = function(string, codeType) {
@@ -47,6 +48,7 @@ var highlight = function(string, codeType) {
             string = string.replace(find_PY_function, "<span class='function'>$&</span>"); // Finds all the functions.
             string = string.replace(find_PY_string, "<span class='string'>$&</span>"); // Finds all the strings.
             string = string.replace(find_PY_operator, "<span class='operator'>$&</sapn>"); // Find all the operators.
+            string = string.replace(find_PY_number, "<span class'number'>$&</span>"); // Finds all the numbers.
         break;
      }
             
