@@ -13,7 +13,8 @@ var find_number = /^\s*(?:-?\d+(?:\.\d+)?)\b/g;
 
 // The patterns for the HTML code.
 var find_html = /<\s+[^>]+>/g;
-var find_attr = /style|class|id/g;
+var find_html_attr = /style|class|id/g;
+var find_html_string = find_string;
 
 // The patterns for Python code.
 var find_PY_functions = /from|inport|print|def|pass/g;
@@ -40,7 +41,8 @@ var highlight = function(string, codeType) {
         // This only runs if the codeType is "HTML".
         case "HTML":
             string = string.replace(find_html, "<span class='html-tag'>$&</span>"); // Finds all the tags.
-            string = string.replace(find_attr, "<span class'html-attr'>$&</span>"); // Finds all the atrs.
+            string = string.replace(find_html_attr, "<span class='html-attr'>$&</span>"); // Finds all the attrs.
+            string = string.replace(find_html_string, "<span class='string'>$&</span>"); // Finds all the strings.
         break;
         
         // This only runs if the codeType is "Python".
