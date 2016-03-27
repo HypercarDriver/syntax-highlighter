@@ -9,6 +9,7 @@ code.code {
     border-radius: 5px;
     font-size: 90%;
     border: 1px solid rgb(214, 210, 214);
+    display: inline-block;
 }
 pre.code {
     background-color: rgb(242, 242, 242);
@@ -19,6 +20,7 @@ pre.code {
     border: 1px solid rgb(214, 210, 214);
     max-width: 700px;
     min-width: 100px;
+    display: block;
 }
 .function, .html-tag {
     color: rgb(38, 163, 65);
