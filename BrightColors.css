@@ -7,6 +7,7 @@ pre.code {
     color: lightgrey;
     padding: 5px;
     border-radius: 15px;
+    display: inline-block;
 }
 code.code {
     background-color: rgb(69, 69, 69);
@@ -15,6 +16,7 @@ code.code {
     border-radius: 5px;
     max-width: 700px;
     min-width: 100px;
+    display: block;
 }
 .function, .html-tag {
     color: lightseagreen;
