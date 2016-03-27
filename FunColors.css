@@ -10,6 +10,7 @@ code.code {
     font-size: 90%;
     border: 1px solid rgb(214, 210, 214);
     display: inline-block;
+    text-align: left;
 }
 pre.code {
     background-color: rgb(242, 242, 242);
