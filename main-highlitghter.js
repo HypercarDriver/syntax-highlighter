@@ -25,7 +25,7 @@ var find_PY_number = find_number;
 
 // The main highlighting function.
 var highlight = function(string, codeType) {
-    this.ct = codeType;
+    this.ct = codeType || "JavaScript";
     
     switch(this.ct){
         // This only runs if the codeType is "JavaScript".
