@@ -20,7 +20,7 @@ var find_html_string = find_string;
 var find_PY_functions = /from|inport|print|def|pass/g;
 var find_PY_comment = /\#+[^#]/g;
 var find_PY_string = find_string;
-var find_PY_operator = /\+|\%|\=/g;
+var find_PY_operator = /\+|\%|\=|\-|\*/g;
 var find_PY_number = find_number;
 
 // The main highlighting function.
