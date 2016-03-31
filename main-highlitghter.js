@@ -35,7 +35,7 @@ var highlight = function(string, codeType) {
             string = string.replace(find_keyword, "<span class='key-word'>$&</span>"); // Finds all the key words.
             string = string.replace(find_operator, "<span class='operator'>$&</span>"); // Finds all the operators.
             string = string.replace(find_comment, "<span class='comment'>$&</span>"); // Finds all the comments.
-            string = string.replace(find_number, "<span class='number'>$&</span"); // Finds all the numbers.
+            string = string.replace(find_number, "<span class='number'>$&</span>"); // Finds all the numbers.
         break;
         
         // This only runs if the codeType is "HTML".
