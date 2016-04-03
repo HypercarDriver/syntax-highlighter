@@ -21,6 +21,10 @@ pre.code {
     border: 1px solid rgb(214, 210, 214);
     min-width: 100px;
     display: block;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: nowrap;
 }
 .function, .html-tag {
     color: rgb(38, 163, 65);
