@@ -7,7 +7,7 @@ var find_function = /var|function|return|new|for/g;
 var find_string = /\"([^\"]+)\"/g;
 var find_parameter = /\(([^\(]+)\(/g;
 var find_keyword = /this|RegExp|Object|prototype|true|false|document|Date|undefined|null|Array|Math|JSON|try|default|break|throw/g;
-var find_operator = /^\s*(?:\+|\-|\*)/g;
+var find_operator = /^\s*(?:\+|\-|\*|\\)/g;
 var find_comment = /^\/\//g;
 var find_number = /^\s*(?:-?\d+(?:\.\d+)?)\b/g;
 
