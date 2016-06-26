@@ -36,6 +36,6 @@ pre.code {
 .comment {
     color: rgb(212, 161, 4);
 }
-.parameter, .number {
+.parameter {
     color: rgb(224, 162, 224);
 }
