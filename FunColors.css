@@ -33,7 +33,7 @@ pre.code {
 .key-word {
     color: rgb(214, 201, 83);
 }
-.comment {
+.comment, .html-comment {
     color: rgb(212, 161, 4);
 }
 .parameter {
