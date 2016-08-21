@@ -17,7 +17,7 @@ var find_html_attr = /style|class|id|type|name|placeHolder|ng-app|ng-repeat|ng-s
 var find_html_string = find_string;
 
 // The patterns for Python code.
-var find_PY_function = /from|inport|print|def|pass/g;
+var find_PY_function = /from|inport|print|def|pass|in/g;
 var find_PY_comment = /\#+[^#]/g;
 var find_PY_string = find_string;
 var find_PY_operator = /\+|\%|\=|\-|\*/g;
