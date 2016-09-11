@@ -13,7 +13,7 @@ var find_number = /^\s*(?:-?\d+(?:\.\d+)?)\b/g;
 
 // The patterns for the HTML code.
 var find_html = /<\s+[^>]+>/g;
-var find_html_attr = /style|class|id|type|name|placeHolder|ng-app|ng-repeat|ng-src|ng-app-data|ng-[^n]|ng-app-[^n]/g;
+var find_html_attr = /style|class|id|type|name|placeHolder|ng-app|ng-repeat|ng-src|ng-app-data|ng-[^n]|ng-app-[^n]|ng-app-data-[^n]/g;
 var find_html_string = find_string;
 
 // The patterns for Python code.
