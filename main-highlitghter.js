@@ -30,12 +30,12 @@ var highlight = function(string, codeType) {
     switch(this.ct){
         // This only runs if the codeType is "JavaScript".
         case "JavaScript":
-            string = string.replace(find_function, "<span class='function'>$&</span>"); // Finds all the functions.
-            string = string.replace(find_string, "<span class='string'>$&</span>"); // Finds all the strings.
-            string = string.replace(find_keyword, "<span class='key-word'>$&</span>"); // Finds all the key words.
-            string = string.replace(find_operator, "<span class='operator'>$&</span>"); // Finds all the operators.
-            string = string.replace(find_comment, "<span class='comment'>$&</span>"); // Finds all the comments.
-            string = string.replace(find_number, "<span class='number'>$&</span>"); // Finds all the numbers.
+            string = string.replace(find_function, "<span class='fn'>$&</span>"); // Finds all the functions.
+            string = string.replace(find_string, "<span class='st'>$&</span>"); // Finds all the strings.
+            string = string.replace(find_keyword, "<span class='kw'>$&</span>"); // Finds all the key words.
+            string = string.replace(find_operator, "<span class='op'>$&</span>"); // Finds all the operators.
+            string = string.replace(find_comment, "<span class='cm'>$&</span>"); // Finds all the comments.
+            string = string.replace(find_number, "<span class='pr'>$&</span>"); // Finds all the numbers.
         break;
         
         // This only runs if the codeType is "HTML".
