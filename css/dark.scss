@@ -5,6 +5,13 @@ pre.code {
     border-radius: 15px;
     border: 1px solid #080808;
     display: inline-block;
+    
+    .fn { color: null; }
+    .st { color: null; }
+    .op { color: null; }
+    .kw { color: null; }
+    .cm { color: null; }
+    .pr { color: null; }
 }
 
 code.code {
@@ -15,11 +22,11 @@ code.code {
     border: 1px solid #080808;
     display: block;
     text-align: left;
+    
+    .fn { color: null; }
+    .st { color: null; }
+    .op { color: null; }
+    .kw { color: null; }
+    .cm { color: null; }
+    .pr { color: null; }
 }
-
-.fn { color: null; }
-.st { color: null; }
-.op { color: null; }
-.kw { color: null; }
-.cm { color: null; }
-.pr { color: null; }
