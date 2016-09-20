@@ -1,0 +1,25 @@
+pre.code {
+    background-color: #222222;
+    color: lightgrey;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #080808;
+    display: inline-block;
+}
+
+code.code {
+    background-color: #222222;
+    color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #080808;
+    display: block;
+    text-align: left;
+}
+
+.fn { color: null; }
+.st { color: null; }
+.op { color: null; }
+.kw { color: null; }
+.cm { color: null; }
+.pr { color: null; }
