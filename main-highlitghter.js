@@ -66,3 +66,5 @@ var createCode = function(string, type, place, codeType) {
     
     $('<' + this.type + '>').html(highlight(this.str, this.CT)).addClass('code').appendTo(this.place);
 };
+
+creatCode();
